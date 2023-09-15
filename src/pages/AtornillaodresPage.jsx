@@ -30,7 +30,6 @@ function AtornilladoresPages() {
                         <tr key={index}>
                             <td><a href={atornillador.url_image}><img src={atornillador.url_image} width="75" alt={atornillador.nombre} /></a></td>
                             <td><a href="">{atornillador.nombre}</a></td>
-                            <td><a href="">{atornillador.ventajas}</a></td>
                         </tr>
                     ))}
                 </tbody>
